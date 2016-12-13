@@ -1,0 +1,27 @@
+[
+{"Do you aspire to take over the world?":
+	{
+		"yes": {"s": 1},
+		"no": {"g": 1, "h": 1},
+		"maybe": {"r": 1}
+	}
+},
+{"What is your favorite class at Hogwarts?":
+	{
+		"Transfiguration": {"g": 1},
+		"Potions": {"s": 1},
+		"Charms": {"r": 1},
+		"Herbology": {"h": 1},
+		"Magical History": {"r": 1},
+		"Flying": {"g": 1},
+		"Defense Against the Dark Arts": {"g": 1, "s": 1},
+		"Astronomy": {"r": 1},
+		"Divination": {"g": 1},
+		"Care of Magical Creatures": {"g": 1},
+		"Arithmancy": {"r": 1},
+		"Ancient Runes": {"r": 1},
+		"Muggle Studies": {"h": 1}
+	}
+}
+
+]
