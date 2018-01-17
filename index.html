@@ -20,7 +20,16 @@
 				<h1>Which Hogwarts House do you belong to?</h1>
 				<p class="lead">Find out with this new magitechnological test!</p>
 			</div>
-<!--            <p>{{gPoints}}</p>-->
+            <ul>
+                <li ng-repeat="x in questions">
+                    {{x.query}}
+                    <ul>
+                        <li ng-repeat="y in options">
+                            {{y.option}}
+                        </li>
+                    </ul>
+                </li>
+            </ul>
 		</div>
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

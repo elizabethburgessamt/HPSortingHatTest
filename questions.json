@@ -1,27 +1,49 @@
-[
-{"Do you aspire to take over the world?":
-	{
-		"yes": {"s": 1},
-		"no": {"g": 1, "h": 1},
-		"maybe": {"r": 1}
-	}
-},
-{"What is your favorite class at Hogwarts?":
-	{
-		"Transfiguration": {"g": 1},
-		"Potions": {"s": 1},
-		"Charms": {"r": 1},
-		"Herbology": {"h": 1},
-		"Magical History": {"r": 1},
-		"Flying": {"g": 1},
-		"Defense Against the Dark Arts": {"g": 1, "s": 1},
-		"Astronomy": {"r": 1},
-		"Divination": {"g": 1},
-		"Care of Magical Creatures": {"g": 1},
-		"Arithmancy": {"r": 1},
-		"Ancient Runes": {"r": 1},
-		"Muggle Studies": {"h": 1}
-	}
-}
+{"questions": [
+    {"query": "Do you aspire to take over the world?",
+        "options": [
+        {
+            "option": "yes",
+            "answer": {"s": 1}
+        },
+        {
+            "option": "no",
+            "answer": {"g": 1, "h": 1}
+        },
+        {
+            "option": "maybe",
+            "answer": {"r": 1}
+        }
 
+    ]},
+    {"query": "What is your favorite class at Hogwarts?",
+    "options": [
+        {"option": "Transfiguration",
+            "answer": {"g": 1}},
+        {"option": "Potions",
+            "answer": {"s": 1}},
+        {"option": "Charms",
+            "answer": {"r": 1}},
+        {"option": "Herbology",
+            "answer": {"h": 1}},
+        {"option": "Magical History",
+            "answer": {"r": 1}},
+        {"option": "Flying",
+            "answer": {"g": 1}},
+        {"option": "Defense Against the Dark Arts",
+            "answer": {"g": 1, "s": 1}},
+        {"option": "Astronomy",
+            "answer": {"r": 1}},
+        {"option": "Divination",
+            "answer": {"g": 1}},
+        {"option": "Care of Magical Creatures",
+            "answer": {"g": 1}},
+        {"option": "Arithmancy",
+            "answer": {"r": 1}},
+        {"option": "Ancient Runes",
+            "answer": {"r": 1}},
+        {"option": "Muggle Studies",
+            "answer": {"h": 1}}
+        ]
+    }
 ]
+}
