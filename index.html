@@ -23,11 +23,11 @@
             <ul>
                 <li ng-repeat="x in questions">
                     {{x.query}}
-                    <ul>
-                        <li ng-repeat="y in options">
+                    <p ng-repeat="y in x.options">
+                        <input type="radio" ng-value="y.answer"  name="group1" id="r1" value="1">
                             {{y.option}}
-                        </li>
-                    </ul>
+                        </input>
+                    </p>
                 </li>
             </ul>
 		</div>
